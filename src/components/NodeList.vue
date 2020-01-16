@@ -7,14 +7,22 @@
     
     @row-click="rowClicked"
   >
+<<<<<<< HEAD
     <el-table-column class="el-table__header-row" prop="" label="Rank" align="center">
+=======
+    <el-table-column class="el-table__header-row" prop="" :label="$t('rank')" align="center">
+>>>>>>> add i18n to switch between languages
           <template slot-scope="scope">{{ scope.$index + 1 }}</template>
     </el-table-column>
     <el-table-column prop="name" label="Name" align="center"></el-table-column>
     <el-table-column label="Version" align="center">
       <template slot-scope="scope">{{ scope.row.appName }} {{ scope.row.appVersion }}</template>
     </el-table-column>
+<<<<<<< HEAD
     <el-table-column prop="points" label="Points" align="center"></el-table-column>
+=======
+    <el-table-column prop="points" :label="$t('score')" align="center"></el-table-column>
+>>>>>>> add i18n to switch between languages
   </el-table>
 </template>
 

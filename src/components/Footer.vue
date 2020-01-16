@@ -3,8 +3,13 @@
     <div class="row footer-bottom">
       <div class="footer-bottom-col">Made with &#10084; by <a target="_blank" class="footer-main-link" href="https://www.einfachIOTA.de">einfachIOTA</a> & <a target="_blank" class="footer-main-link" href="https://tanglebay.org">Tangle Bay</a></div>
       <div class="footer-bottom-col">
+<<<<<<< HEAD
         <a class="footer-main-link" href="https://tanglebay.org/legal-notice/">Legal Notice</a>
         <a class="footer-main-link" href="https://tanglebay.org/privacy-policy/">Privacy Policy</a>
+=======
+        <router-link to="imprint" class="footer-main-link"><i18n path="imprint"></i18n></router-link>
+        <router-link to="privacy" class="footer-main-link"><i18n path="privacy"></i18n></router-link>
+>>>>>>> add i18n to switch between languages
       </div>
     </div>
   </div>
